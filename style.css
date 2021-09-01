@@ -1,0 +1,681 @@
+*{
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    position: absolute;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(180deg,#fff,rgba(0,0,0,0));
+    border-top: 10px solid #e13868;
+}
+
+header .mobile{
+    display: none;
+}
+
+header .logo{
+    margin-left:40px;
+}
+
+header .social-media{
+    margin-right:40px;
+}
+
+header .menu a{
+    margin:0px 10px 0px 10px;
+    color: #1a2c3a;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+header .menu a::before{
+    border-bottom: 5px solid #e13868;
+}
+
+.social-media li{
+    display: inline;
+    cursor: pointer;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 961px;
+    background-image: url('./assets/bg-first-section.png'),url('./assets/background-1.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1100px 1100px, cover;
+    background-position: right top, center;
+}
+
+.first .left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    margin-bottom: 150px;
+}
+
+.first .left h1{
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    text-align: left;
+    margin-bottom: 30px;
+    text-shadow: 3px 4px 0 #df8080, 5px 6px #fff;
+    font-size: 5rem;
+}
+.first .left .bottom{
+    border-radius: 20px;
+    background-color: #df8080;
+    width: 120px;
+    height: 20px;
+}
+.first .left p {
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    margin-bottom: 60px;
+}
+.first .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+}
+.first .right img{
+    display: flex;
+    height: 100%;
+    max-height: 1200px;
+    width: 100%;
+    max-width: 1200px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/btn.svg);
+    background-position: 50%;
+    background-size: cover;
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff!important;
+    height: 81px;
+    width: 276px;
+    cursor: pointer;
+}
+
+.second{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-height: 1100px;
+}
+
+.second .title h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.second .title p{
+
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.second .games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 60px;
+
+}
+
+section .game {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+    height: 500px;
+    width: 400px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgb(204, 204, 204);
+}
+
+section .game p{
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+section .game a {
+    margin-top: -15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #ec386b;
+}
+
+.second .games .game .panda img {
+    max-height: 401px;
+}
+
+.second .games .game .cooke img {
+    max-height: 400px;
+}
+
+.second .games .game .cookie-blast img {
+    max-height: 400px;
+}
+
+.second .games .game .cookie-blast{
+    display: flex;
+    align-items: flex-end;
+    height: 430px;
+    width: 400px;
+    border-radius: 20px;
+    background-image: url(./assets/Cookie\ Jam\ Blast_BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.second .games .game .panda{
+    display: flex;
+    align-items: flex-end;
+    height: 430px;
+    width: 400px;
+    border-radius: 20px;
+    background-image: url(./assets/Panda\ Pop_BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.second .games .game .cooke{
+    display: flex;
+    align-items: flex-end;
+    height: 430px;
+    width: 400px;
+    border-radius: 20px;
+    background-image: url(./assets/Cooke\ Jam_BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.third {
+    margin: 90px 10% 340px 10%;
+    width: 80%;
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+
+.third .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third .title h3 {
+    margin-top: 100px;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.third .title p {
+    height: 100%;
+    width: 100%;
+    max-width: 590px;
+    margin-top: 10px;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+
+.third .ceo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.third .center {
+    margin-top: 290px;
+    height: 100%;
+    max-height: 750px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 620px 500px;
+    background-position: top;
+    background-image: url(./assets/section3-bg.png);
+}
+
+.absolute{
+    margin-top: 1280px;
+    position: absolute;
+    z-index: 6;
+}
+
+.ceo img{
+    max-height: 600px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 430px;
+    background-color: #1a2c3a;
+}
+
+
+.footer-left{
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 100%;
+height: 430px;
+flex-direction: row;
+}
+
+.f-m-l {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.f-m-l .social-media {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.f-m-r {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.f-m-r .top {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.f-m-r .top .menu-l{
+    display: flex;
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.f-m-r .top .menu-r{
+    display: flex;
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.f-m-r .top .menu-l a {
+    padding: 6px;
+    color: #F2F2F2;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.f-m-r .top .menu-r a{
+    padding: 6px;
+    color: #F2F2F2;
+    font-size: 1.2em;
+}
+
+.f-m-r .bottom{
+    width: 100%;
+    height: 100%;
+    color: #F2F2F2;
+    font-size: 0.8em;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: center !important;
+    align-items: flex-start;   
+    width: 850px;
+    height: 430px;
+    justify-content: flex-end;
+    background-image: url(./assets/footer-right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-right p{
+    margin-top: 65px;
+    color: #F2F2F2;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 1700px ) {
+
+    .first .right img{
+        display: flex;
+        height: 100%;
+        max-height: 700px;
+        width: 100%;
+        max-width: 700px;
+    }
+    .first {
+        max-height: 1300px;
+    }
+
+    .ceo img{
+        max-height: 400px;
+    }
+
+    .third .center {
+        margin-top: 290px;
+        max-height: 550px;
+        background-size: 520px 400px;
+    }
+
+    .third {
+        height: 620px;
+    }
+
+    .absolute{
+        margin-top: 1080px;
+        position: absolute;
+    }
+
+    .first .left h1{
+        font-size: 4rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1350px ){
+
+    header .menu{
+        display: none;
+    }
+
+    header .mobile{
+        display: flex;
+        width: 40px ;
+        height: 40px;
+        margin-right:40px;
+        background-color: #1a2c3a;
+        cursor: pointer;
+    }
+
+    .first .right img{
+        display: flex;
+        height: 100%;
+        max-height: 550px;
+        width: 100%;
+        max-width: 550px;
+    }
+    .first {
+        align-items: center;
+        background-image: none;
+        flex-direction: column;
+        max-height: 1200px;
+    }
+
+
+    footer{
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
+
+
+    .first .left{
+        width: 100%;
+        align-items: flex-start;
+        margin: 0;
+    }
+    
+    .first .left h1{
+        margin-top: 120px;
+        margin-left: 60px;
+        height: 100%;
+        max-width: 600px;
+        text-align: left;
+        margin-bottom: 10px;
+        font-size: 4rem;
+    }
+
+    .first .left .bottom{
+        margin-left: 60px;
+    }
+    
+    .first .left p{
+        margin-left: 60px;
+    }
+    .first .right{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: right;
+        align-items: flex-end;
+    }
+
+
+    .b-f{
+        background-position: 50%;
+        background-repeat:no-repeat;
+        background-size: auto 100%;
+        font-weight: 900;
+        height: 100%;
+        width: 100%;
+    }
+
+    .button{
+        background-position: 50%;
+        background-repeat:no-repeat;
+        background-size: auto 100%;
+        font-weight: 900;
+    }
+
+    .second{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        max-height: 1800px;
+    }
+    
+    .second .games {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 60px;
+    
+    }
+    
+    section .game {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between !important;
+        max-height: 400px;
+        max-width: 350px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px rgb(204, 204, 204);
+    }
+    
+    section .game p{
+        font-size: 1.2em;
+        font-weight: 900;
+    }
+    
+    
+    .second .games .game .panda img {
+        max-height: 351px;
+    }
+    
+    .second .games .game .cooke img {
+        max-height: 350px;
+    }
+    
+    .second .games .game .cookie-blast img {
+        max-height: 350px;
+    }
+    
+    .second .games .game .cookie-blast{
+        height: 330px;
+        width: 100%;
+
+    }
+    
+    .second .games .game .panda{
+
+        height: 330px;
+        width: 100%;
+
+    }
+    
+    .second .games .game .cooke{
+
+        height: 330px;
+        width: 100%;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 1000px){
+    header .social-media{
+        display: none;
+    }
+
+    .ceo img{
+        max-height: 170px;
+    }
+
+    .third .center {
+        margin-top: 290px;
+        max-height: 200px;
+        background-size: 220px 200px;
+    }
+
+    .third {
+        height: 420px;
+    }
+
+    .absolute{
+        margin-top: 760px;
+        position: absolute;
+    }
+
+    .first .left h1{
+        font-size: 4rem;
+    }
+
+    .first .left h1{
+        max-width: 200px;
+        font-size: 2rem;
+    }
+
+    .first .left p {
+        max-width: 200px;
+    }
+
+    .first .right img{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        max-width: 500px;
+       
+    }
+
+    .f-m-l img{
+        width: 100px;
+    }
+
+    .f-m-l .social-media ul li svg{
+        width: 30px;
+        height: 30px;
+    }
+    .f-m-r .top .menu-l a{
+        font-size: 0.8em;
+
+    }
+
+    .f-m-r .top .menu-r a{
+        font-size: 0.8em;
+    } 
+
+    .footer-right p {
+        font-size: 1em;
+    }
+
+
+}
