@@ -7,7 +7,32 @@
     font-family: sans-serif;
 }
 
+.menu-semimobile{
+    display: none;
+    width: 70vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 8;
+    background-color: #1a2c3a; 
+    
+}
+
+.menu-mobile{
+    display: none;
+    left: 0;
+    top: 0;
+    width: 70vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 8;
+    background-color: #1a2c3a;
+}
+
+
 header{
+    z-index: 7;
     position: absolute;
     height: 100px;
     display: flex;
@@ -21,6 +46,7 @@ header{
 
 header .mobile{
     display: none;
+    z-index: 8;
 }
 
 header .logo{
