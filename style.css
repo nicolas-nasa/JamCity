@@ -9,6 +9,9 @@
 
 .menu-semimobile{
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 70vw;
     height: 100vh;
     left: 0;
@@ -17,6 +20,9 @@
     z-index: 8;
     background-color: #1a2c3a; 
     
+}
+.menu-semimobile img{
+    margin-top: 40px;
 }
 
 .menu-semimobile .menu-s{
@@ -51,6 +57,11 @@
     background-color: #1a2c3a;
 }
 
+.menu-mobile img{
+    height: 130px;
+    margin-bottom: 0px;
+}
+
 .menu-mobile .menu-m{
     display: flex;
     flex-direction: column;
@@ -65,13 +76,13 @@
 }
 
 .menu-mobile .social-media-m ul li svg{
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .menu-mobile .menu-m a{
     font-weight: 900;
     font-size: 1.1rem;
-    margin-top: 40px;
+    margin-top: 30px;
     color: #ffffff !important;
     z-index: 9;
 
